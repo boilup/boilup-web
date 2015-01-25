@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>boilup.ca</title>
-    <?php include('bstop.inc');?>
+    <?php include('../bstop.inc');?>
   </head>
   <body>
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -17,11 +17,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">boilup.ca</a>
+          <a class="navbar-brand" href="/">boilup.ca</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <?php include('menu.inc');?>
+            <?php include('../menu.inc');?>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -30,22 +30,9 @@
     <div class="container">
 
       <div class="starter-template">
-        <h1>Hey, how about a cup of tea and a cut of pie?</h1>
-        <img  src="http://photos-d.ak.instagram.com/hphotos-ak-xpf1/10507795_606187919479659_1684097452_n.jpg" class="img-responsive center-block" src="//instagram.com/p/p2Rc_XyQ2o/embed/" alt="Responsive image">
-
-        <p class="lead">Tastes great, less filling... Welcome to boilup.ca, where lack of punctuation makes a statement.<br></p>
-        <p >This is just a page about things I'm into, an hopefully not a starting place for my identitfy theft. Working in IT but dabbling in lots of things, including the family, bikes, guitars and yep tech. Have a look around, as this might not be here forever OOOOooooo....<br></p>
         <a name='monitoring'>
         <h2>Monitoring section</h2></a>
 	This will be where i'm gong to talk about my monitoring tools i've used over the years, not unlike my resume (see contacts). I've had my hands on a broad variety of monitoring tools, from home-brew setups to full blown Enterprise sized solutions.  Cobbling a list together takes days, that's why it's not here yet, but will be very soon!
-        <a name='about'>
-        <h2>About</h2></a>
-	So far it's been a complete loop from newfoundland to ontario and back again (sorta). Originally from Kippens, Newfoundland and Labrador and curently living in St John's. Great city, I hear the lowest rates of skin cancer here on account of all the fog ;). 
-        <a name='contact'>
-        <h2>Contact Info</h2></a>
-        <p>Please feel free to contact me via linkedin or instagram if you can figure that out (I'm not entirely sure how to do it =D ). </p> 
-	<a href="http://ca.linkedin.com/pub/marcel-white/3/a72/0"><img src="https://dlc1-s.licdn.com/sites/default/files/Logo-21px-R.png" alt="linkedin"></a>
-        <a href="http://instagram.com/marcelwhite74?ref=badge" class="ig-b- ig-b-v-24"><img src="http://badges.instagram.com/static/images/ig-badge-view-24.png" alt="Instagram"></a>
       </div>
 
     </div>
