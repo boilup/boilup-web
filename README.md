@@ -1,8 +1,2 @@
 # boilup-web
-asdfasdfasdfasdf
-
-adf
-asd
-Main php for website
-
-meep.
+First public github usage. used internal github deployments in the past but figured this would be a good way to keep my github usage *fresh* and well, yeah, source/version control is alway nice.
