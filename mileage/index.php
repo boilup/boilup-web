@@ -7,8 +7,8 @@
     <title>boilup.ca</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="starter-template.css" rel="stylesheet">
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../dist/starter-template.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,7 +24,7 @@ $KILO="1.609344";
 $DB="remote_updates";
 $DBUSER="entries";
 $DBPASS="letmein";
-$DBHOST="loalhost";
+$DBHOST="localhost";
 $BGCOLOR="D8BFD8"; 
 $link=mysql_connect("$DBHOST","$DBUSER","$DBPASS") or die('wahhh cannot connect');
 mysql_select_db ("$DB") or die("cannot select db $DB"); 
