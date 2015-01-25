@@ -44,16 +44,6 @@
         <a href="http://instagram.com/marcelwhite74?ref=badge" class="ig-b- ig-b-v-24"><img src="http://badges.instagram.com/static/images/ig-badge-view-24.png" alt="Instagram"></a>
       </div>
       
-      <div class="progress">
-  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-    <span class="sr-only">60% Complete</span>
-  </div>
-</div>
-
-<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Tooltip on left</button>
-
-
-
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
