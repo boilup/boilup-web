@@ -34,22 +34,9 @@
         <h2>Vintage Motorcycle</h2></a>
 	<p>Vintage motorcycles, more specifically Yamaha are a passion of mine. Ever since i was a teenager in high school I've watched and drooled as the older kids with their license would zoom around. Something about the speed, sound, smell, fun and to a lesser extent, risk always drew me to bikes and recreational equipment in general.I've been dabbling with My 1981 Seca 750 for about 3 years and it's been a labour love, sorta. Any motorcycle (vehicle) over 10 years of age is definitley needing a going over, nevermind all the basics.  I'm no mechanic but tearing into a set of carburetors no longer scares me! Here's the photo album of my progress and end result:</p>
 
-<div class="panel panel-primary">
-  <!-- Default panel contents -->
-  <div class="panel-heading">Motorcycle Albums</div>
+<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="//imgur.com/a/5MXbJ/embed"></iframe>
 
-  <!-- Table -->
-<table class="table" style="width:194px;" align="center" >
-<tr>
-<td align="center" style="height:194px;background:url(https://www.gstatic.com/pwa/s/v/lighthousefe_20140824.00_p2/transparent_album_background.gif) no-repeat left"><a href="https://picasaweb.google.com/110534603428796472381/1981750Seca?authuser=0&feat=embedwebsite"><img src="https://lh4.googleusercontent.com/-D5rtAm2Z7PY/UFX6mklBoeE/AAAAAAAAB8k/cPVDq3HRJ4k/s160-c/1981750Seca.jpg" width="160" height="160" style="margin:1px 0 0 4px;"></a>
-</td>
-</tr>
-<tr>
-<td style="text-align:center;font-family:arial,sans-serif;font-size:11px"><a href="https://picasaweb.google.com/110534603428796472381/1981750Seca?authuser=0&feat=embedwebsite" style="color:#4D4D4D;font-weight:bold;text-decoration:none;">1981 750 Seca</a>
-</td>
-</tr>
-</table>
-</div>
+
 </div>
 </div>
     

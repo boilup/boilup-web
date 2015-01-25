@@ -29,17 +29,13 @@
  
     <div class="container">
 
-      <div class="starter-template">
-        <h1>Hey, how about a cup of tea and a cut of pie?</h1>
-        <img  src="http://photos-d.ak.instagram.com/hphotos-ak-xpf1/10507795_606187919479659_1684097452_n.jpg" class="img-responsive center-block" src="//instagram.com/p/p2Rc_XyQ2o/embed/" alt="Responsive image">
-
+      <div class="starter-template" class="center-block">
+        <h1>Hey, how about a cup of tea and a cut of pie?</h1><hr>
+        <img src="http://i.imgur.com/RhPQufT.jpg" title="source: imgur.com" class="img-responsive"/>
+        <hr>
         <p class="lead">Tastes great, less filling... Welcome to boilup.ca, where lack of punctuation makes a statement.<br></p>
         <p >This is just a page about things I'm into, an hopefully not a starting place for my identitfy theft. Working in IT but dabbling in lots of things, including the family, bikes, guitars and yep tech. Have a look around, as this might not be here forever OOOOooooo....<br></p>
-        <a name='monitoring'>
-        <h2>Monitoring section</h2></a>
-	This will be where i'm gong to talk about my monitoring tools i've used over the years, not unlike my resume (see contacts). I've had my hands on a broad variety of monitoring tools, from home-brew setups to full blown Enterprise sized solutions.  Cobbling a list together takes days, that's why it's not here yet, but will be very soon!
-        <a name='about'>
-        <h2>About</h2></a>
+        <a name='About'><h2>About</h2></a>
 	So far it's been a complete loop from newfoundland to ontario and back again (sorta). Originally from Kippens, Newfoundland and Labrador and curently living in St John's. Great city, I hear the lowest rates of skin cancer here on account of all the fog ;). 
         <a name='contact'>
         <h2>Contact Info</h2></a>
@@ -49,8 +45,6 @@
       </div>
 
     </div>
-    
-
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

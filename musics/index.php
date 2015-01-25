@@ -30,9 +30,10 @@
     <div class="container">
 
       <div class="starter-template">
-        <a name='monitoring'>
-        <h2>Monitoring section</h2></a>
-	This will be where i'm gong to talk about my monitoring tools i've used over the years, not unlike my resume (see contacts). I've had my hands on a broad variety of monitoring tools, from home-brew setups to full blown Enterprise sized solutions.  Cobbling a list together takes days, that's why it's not here yet, but will be very soon!
+        <a name='Musics'>
+        <h2>Music section</h2></a>
+        I believe it all started when as just a kid, driving up over Montana Dr in Stephenville, I heard some Allman Brothers song (rambling man) playing on the radio. Long before the days of car seats and seat belt requirements. From then on I've developed a ecclectic taste in music; mainly revolving around my sisters record collection and heavily influenced by my Newfoundland & Labrador roots.  Here is a little information about what I listen to, what I play and what I'll hopefully play at some point in the future. 
+
       </div>
 
     </div>
