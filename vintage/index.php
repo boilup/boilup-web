@@ -33,12 +33,19 @@
         <a name='vintage'>
         <h2>Vintage Motorcycle</h2></a>
 	<p>Vintage motorcycles, more specifically Yamaha are a passion of mine. Ever since i was a teenager in high school I've watched and drooled as the older kids with their license would zoom around. Something about the speed, sound, smell, fun and to a lesser extent, risk always drew me to bikes and recreational equipment in general.I've been dabbling with My 1981 Seca 750 for about 3 years and it's been a labour love, sorta. Any motorcycle (vehicle) over 10 years of age is definitley needing a going over, nevermind all the basics.  I'm no mechanic but tearing into a set of carburetors no longer scares me! Here's the photo album of my progress and end result:</p>
-
+<hr>
+<h3>1981 Yamaha XJ750RL Seca</h3>
+<p>Here's my current ride. Interesting story on this one, as it was the product of the insurance claim payout and some sleuthing on Kijiji in Southwestern Ontario. It's had a bit of a checkered past, originally a New Hampshire Bike, the previous owner had originally intended to create a rat bike out of it, but in reality it just sat in his barn for a few years once he got a cruiser.  The main problem was a bum idle circuit on the 1st cylinder (only idled on 3 cylinders). </p>
 <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="//imgur.com/a/5MXbJ/embed"></iframe>
 
+<hr>
+<h3>1983 Yamaha XJ650K Maxim</h3>
+<p>Here's my previous (and subsequent donor) bike. She was a good steed and my first forray in to motorcycles, period. Never knew what I was getting myself into, but i had way too much fun as it were. The funny thing is that my son and I were out to pickup two angel food cake mixes when the accident happened, that's what saved us no doubt!</p>
+<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="//imgur.com/a/0zjID/embed"></iframe>
 
-</div>
-</div>
+
+      </div>
+    </div>
     
 
 
