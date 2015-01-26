@@ -17,6 +17,27 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">boilup.ca</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <?php include('../menu.inc');?>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
 <?php
 
 
@@ -31,7 +52,6 @@ mysql_select_db ("$DB") or die("cannot select db $DB");
 $output = fopen("/tmp/test.txt", 'a');
 $QUERY="select date, litres, distance, cost, per100, mpg from mileages order by date desc";
 $RESULT= mysql_query($QUERY) or die('query failed'); 
-echo "<body>";
 echo "<h2>This is just a page to track mileage on my vehicles.</h2>";
 echo "All done automated via email submittion + php + mysql"; 
 echo "<br><br>"; 
