@@ -34,23 +34,30 @@
         <hr>
         <h3>1981 Yamaha XJ750RL Seca</h3>
         <p>Here's my current ride. Interesting story on this one, as it was the product of the insurance claim payout and some sleuthing on Kijiji in Southwestern Ontario. It's had a bit of a checkered past, originally a New Hampshire Bike, the previous owner had originally intended to create a rat bike out of it, but in reality it just sat in his barn for a few years once he got a cruiser.  The main problem was a bum idle circuit on the 1st cylinder (only idled on 3 cylinders).</p>
-        <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="//imgur.com/a/5MXbJ/embed"></iframe>
+        <br>
         <p>Here's a list of *accomplishments* so far to it
           <div class="panel panel-default">
             <!-- Default panel contents -->
-            <div class="panel-heading">Updates</div>
+            <div class="panel-heading">Seca updates</div>
             <div class="panel-body">
-              <p>...</p>
+              <p>Just about everything on this bike has needed some TLC. It's amazing what a barn and neglect can do!</p>
             </div>
 
-            <!-- Table -->
-            <table class="table">
-              <tr>
-                <td>testing 1 2 3 table data</td>  
-              </tr>
-            </table>
+            <ul class="list-group">
+              <li class="list-group-item">New front brake lines</li>
+              <li class="list-group-item">Seat recovered, black with red piping</li>
+              <li class="list-group-item">New Bridgestone Battleaxe (45v's IIRC)</li>
+              <li class="list-group-item">New Battery</li>
+              <li class="list-group-item">Replacement tank, instrument cluster, headlight bucket</li>
+              <li class="list-group-item">Carb overhaul</li>
+              <li class="list-group-item">Supertrapp muffler (8 discs installed currently)</li>
+              <li class="list-group-item">Valve shims checked and brought into spec</li>
+              <li class="list-group-item">New blade type fuse panel</li>
+            </ul>
           </div>
         </p>
+        <p>... And the album in case you'd like to take a look</p>
+        <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="//imgur.com/a/5MXbJ/embed"></iframe>
 
         <hr>
         <h3>1983 Yamaha XJ650K Maxim</h3>
