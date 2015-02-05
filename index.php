@@ -42,9 +42,9 @@
         <p>Please feel free to contact me via linkedin or instagram. </p> 
 	<a href="http://ca.linkedin.com/pub/marcel-white/3/a72/0"><img src="https://dlc1-s.licdn.com/sites/default/files/Logo-21px-R.png" alt="linkedin"></a>
         <a href="http://instagram.com/marcelwhite74?ref=badge" class="ig-b- ig-b-v-24"><img src="http://badges.instagram.com/static/images/ig-badge-view-24.png" alt="Instagram"></a>
-      </div>
 
-<a href="http://imgur.com/NBwEZDz"><img src="http://i.imgur.com/NBwEZDz.gif" title="source: imgur.com" /></a>
+<a href="http://imgur.com/NBwEZDz"><br><br><img src="http://i.imgur.com/NBwEZDz.gif" title="source: imgur.com" /></a>
+      </div>
       
     </div>
 
