@@ -41,13 +41,12 @@
           </div>
         </div>	
         Now while I'd rather this not be my resume per say, here are some of the tools I've had the pleasure of using over the years. These have been used in small -> enterprise class environments in a global setting. Lot's of fun!
+<br>
+<br>
     
         <div class="panel panel-default">
         <!-- Default panel contents -->
         <div class="panel-heading">Monitoring toolsets</div>
-        <div class="panel-body">
-          <p>...</p>
-        </div>
         <table class="table">
         <tr>
            <td>Tool</td><td>Description</td>

@@ -37,17 +37,18 @@
       </div>
     </div>
 
+<div class="container">
 
+<h3>This page just gives a few examples on my work with PHP, etc...</h3>
+<p>First up is a quick mileage page for my motorbike. Basically just processes some raw info that I pass in via email and inserts into a DB, then calculates my gas mileage, etc... All in all, it just shows that my 30+ year old vintage Yamaha is currenly a pig on gas!</p>
 <?php
-
-
 $KILO="1.609344"; 
 $DB="remote_updates";
 $DBUSER="entries";
 $DBPASS="letmein";
 $DBHOST="localhost";
 $BGCOLOR="D8BFD8"; 
-$link=mysql_connect("$DBHOST","$DBUSER","$DBPASS") or die('wahhh cannot connect');
+$link=mysql_connect("$DBHOST","$DBUSER","$DBPASS") or die('Wahhh cannot currently connect to Database');
 mysql_select_db ("$DB") or die("cannot select db $DB"); 
 $output = fopen("/tmp/test.txt", 'a');
 $QUERY="select date, litres, distance, cost, per100, mpg from mileages order by date desc";
@@ -80,9 +81,14 @@ while ($line = mysql_fetch_array($RESULT, MYSQL_ASSOC)) {
 echo "</table>\n";
 echo '</div>';
 
-
-
 fclose($output);
-
-echo "</body>"; 
 ?>
+
+</div class="container">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+
