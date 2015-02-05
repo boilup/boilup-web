@@ -38,6 +38,9 @@
     </div>
 
 <div class="container">
+    <div class="starter-template">
+      <a name='Projects'><h2>Projects</h2></a>
+
 
 <h3>This page just gives a few examples on my work with PHP, etc...</h3>
 <p>First up is a quick mileage page for my motorbike. Basically just processes some raw info that I pass in via email and inserts into a DB, then calculates my gas mileage, etc... All in all, it just shows that my 30+ year old vintage Yamaha is currenly a pig on gas!</p>
