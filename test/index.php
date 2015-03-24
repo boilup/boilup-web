@@ -9,55 +9,37 @@
     <title>boilup.ca</title><?php include('../bstop.inc');?>
   </head>
   <body>
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-        </button> 
-        <a class="navbar-brand" href="/">boilup.ca</a></div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <?php include('../menu.inc');?>
-          </ul>
-        </div>
-        <!--/.nav-collapse -->
+  <!--  <form class="navbar-form navbar-left" role="search">
+      <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
       </div>
-    </div>
-    <div class="container">
-    <div class="starter-template">
-    <a name='monitoring'>
-      <h2>Monitoring</h2>
-    </a>
-    <p>Here goes. For the better part of my technology career I&#39;ve been working with monitoring tools in some way, shape or
-    form. A few different quotes come to mind:</p>
-    <div class="panel panel-default">
-      <div class="panel-body">&quot;Knowing is always better than not knowing.&quot;,
-      <br />&quot;It&#39;s always better for you to realize something of yours is down before being told as much.&quot;
-      <br />and to a lesser extent &quot;If you wait until the last minute it only takes a minute to do.&quot;
-      <br /></div>
-    </div>Now while I&#39;d rather this not be my resume per say, here are some of the tools I&#39;ve had the pleasure of using
-    over the years. These have been used in small -&gt; enterprise class environments in a global setting. Lot&#39;s of fun!
-    <div class="panel panel-default">
-      <!-- Default panel contents -->
-      <div class="panel-heading">Monitoring</div>
-      <div class="panel-body">
-        <p>...</p>
+      <button type="submit" class="btn btn-default">Submit</button>
+  </form> -->
+
+
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+      Launch demo modal
+  </button>
+    <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Please enter data for mysql.info</h4>
+              </div>
+              <div class="modal-body">
+                  ...
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+          </div>
       </div>
-      <ul class="list-group">
-        <li class="list-group-item">http://www.nagios.org</li>
-        <li class="list-group-item">http://www.ca.com/ca/en/opscenter/ca-ehealth.aspx</li>
-        <li class="list-group-item">http://www.netitive.com/</li>
-        <li class="list-group-item">http://canada.emc.com/it-management/smarts/index.htm</li>
-        <li class="list-group-item">CA Sysedge (snmpd client)</li>
-      </ul>
-    </div>
-    <div class="panel panel-default">
-    <!-- Default panel contents -->
-    <div class="panel-heading">Panel heading</div>
-    <!-- Table -->
-    ...
-    <table class="table"></table></div></div>
+  </div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
     <!-- Include all compiled plugins (below), or include individual files as needed -->

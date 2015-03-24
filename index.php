@@ -40,11 +40,13 @@
         <a name='contact'>
         <h2>Contact Info</h2></a>
         <p>Please feel free to contact me via linkedin or instagram. </p> 
-	<a href="http://ca.linkedin.com/pub/marcel-white/3/a72/0"><img src="media/Logo-2C-14px.png" alt="linkedin"></a>
+	<a href="http://ca.linkedin.com/pub/marcel-white/3/a72/0"><img src="/media/Logo-2C-14px.png" alt="linkedin"></a>
         <a href="http://instagram.com/marcelwhite74?ref=badge" class="ig-b- ig-b-v-24"><img src="http://badges.instagram.com/static/images/ig-badge-view-24.png" alt="Instagram"></a>
 
 <a href="http://imgur.com/NBwEZDz"><br><br><img src="http://i.imgur.com/NBwEZDz.gif" title="source: imgur.com" /></a>
       </div>
+
+
       
     </div>
 
