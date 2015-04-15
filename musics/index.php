@@ -40,7 +40,7 @@
         <p>This is a instrument which I just started playing probably since fall 2014. Lovely difference from a guitar and more voice like, if you follow me. Always wanted to play and received one for Christmas to learn on. Currently only have a few tunes under my belt but the interest is still there!</p>
         
       </div>
-
+        <div>I'll be using this page to add an instrument/song listing here. Should be interesting to setup.</div>
     </div>
     
 
