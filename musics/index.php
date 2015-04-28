@@ -55,30 +55,30 @@
       ?>
 
       <div>
-          <p><hr>This here's a instrument input form<hr></p>
-          <form class="form-inline" role="form" id="NewInstrument">
+          <hr><p>This here's a instrument input form</p><hr>
+          <form  method="post" id="newGuitar" class="form-inline" role="form" >
               <div class="form-group">
-                  <label for="Make">Make</label>
-                  <input type="text" class="form-control" id="Make">
+                  <label for="make">Make</label>
+                  <input type="text" class="form-control" name="make" pattern="[a-z0-9\-\_\ ]+" title="Numbers, Letters and Dashes">
               </div>
               <div class="form-group">
-                  <label for="Model">Model</label>
-                  <input type="text" class="form-control" id="Model">
+                  <label for="model">Model</label>
+                  <input type="text" class="form-control" name="model" pattern="[A-Za-z0-9\_\-\_]+" title="Manufacturer" required>
               </div>
               <div class="form-group">
-                  <label for="Type">Type</label>
-                  <input type="text" class="form-control" id="Type">
+                  <label for="type">Type</label>
+                  <input type="text" class="form-control" name="type" pattern="[a-z]+" title="what kind of instrument?" required>
               </div>
               <div class="form-group">
-                  <label for="Purchased">Purchased</label>
-                  <input type="date" class="form-control" id="Purchased">
+                  <label for="purchased">Purchased</label>
+                  <input type="date" class="form-control" name="purchased" required title="When did you purchase the instrument?">
               </div>
-              <button type="submit" class="btn btn-default">Submit</button>
+              <button type="submit" name="sub" class="btn btn-default">Submit</button>
           </form>
       </div>
+          <p id="result"></p>
       </div>
     </div>
-
     <?php
     include("../includes/incbottom.inc");
     ?>

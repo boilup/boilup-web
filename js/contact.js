@@ -2,17 +2,20 @@
  * Created by whiteco on 3/24/2015.
  */
 $(document).ready(function(){
-   $("form").submit(function(){
-       alert("hello there");
+   $( "form" ).submit(function( event ) {
+     $.post( "insert.php", $("#newGuitar").serialize(), function(data, status){
+         document.getElementById("result").innerHTML=(status);
+     });
 
+     clearInput();
+
+     return false;
 
    });
-    $( "#NewInstrument" ).submit(function( event ) {
-        alert( "Handler for .submit() called." );
-        event.preventDefault();
-        $("#form").id(function(){
 
-        });
-    });
-
+   function clearInput() {
+     $("#newGuitar :input").each( function() {
+     $(this).val('');
+     });
+   }
 });
