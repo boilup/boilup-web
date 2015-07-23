@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>boilup.ca ~~ Contact</title>
-    <?php include('../bstop.inc');?>
-    <script src="/js/contact.js"></script>
+    <?php include('../includes/bstop.inc');?>
+    <script src="/js/music.js"></script>
 
   </head>
   <body>
@@ -23,7 +23,7 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <?php include('../menu.inc');?>
+            <?php include('../includes/menu.inc');?>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

@@ -1,4 +1,4 @@
-<!DOCTYPE htm
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -41,9 +41,9 @@
         <p>Been playing (acoustic) guitar since about 1998 I would guess. Just started my second stint in college, and had a couple of classmates who played.  My mother had an old Fender F-15 sitting in the closet for years; a <strike>fucking</strike> fender as Gregg White once said! Either way, I had gotten it shipped out one winter day from her place, and once re-strung and hit my first solid G note I was pretty much hooked.  Just a campfire/house party player, which is all i really wanted to get out of it.  </p><hr>
         <h3>Violin</h3>
         <p>This is a instrument which I just started playing probably since fall 2014. Lovely difference from a guitar and more voice like, if you follow me. Always wanted to play and received one for Christmas to learn on. Currently only have a few tunes under my belt but the interest is still there!</p>
-
-
+        <div id="guitartable">
       <?php
+
       $GetInstruments='select * from instruments where type= :TYPE';
       $GetInstrumentsHandler=$dbh->prepare($GetInstruments, array(PDO::FETCH_OBJ));
       $GetInstrumentsHandler->execute(array(':TYPE'=>"Guitar"));
@@ -52,32 +52,65 @@
           echo "My " . $Guitar->make . " " . $Guitar->model . " Was acquired on " . $Guitar->acquired . "<br>";
           //echo "<pre>";
       }
+
       ?>
 
-      <div>
-          <hr><p>This here's a instrument input form</p><hr>
-          <form  method="post" id="newGuitar" class="form-inline" role="form" >
-              <div class="form-group">
-                  <label for="make">Make</label>
-                  <input type="text" class="form-control" name="make" pattern="[a-z0-9\-\_\ ]+" title="Numbers, Letters and Dashes">
-              </div>
-              <div class="form-group">
-                  <label for="model">Model</label>
-                  <input type="text" class="form-control" name="model" pattern="[A-Za-z0-9\_\-\_]+" title="Manufacturer" required>
-              </div>
-              <div class="form-group">
-                  <label for="type">Type</label>
-                  <input type="text" class="form-control" name="type" pattern="[a-z]+" title="what kind of instrument?" required>
-              </div>
-              <div class="form-group">
-                  <label for="purchased">Purchased</label>
-                  <input type="date" class="form-control" name="purchased" required title="When did you purchase the instrument?">
-              </div>
-              <button type="submit" name="sub" class="btn btn-default">Submit</button>
-          </form>
       </div>
-          <p id="result"></p>
+      <hr>
+
+
+      <div id="buttons">
+        <button data-target='#myModal' type="button" id="addInstrument" data-target="#newGuitar" data-toggle="modal" data-loading-text="Please wait..." class="btn btn-primary" >
+            Add instrument
+        </button>
+
       </div>
+
+
+          <!-- // make, model, type and purchased are used here. need to re-do the modal form. -->
+
+
+      <div class="modal fade" id="myModal" role="dialog" >
+          <div class="modal-dialog" role="document">
+
+              <div class="modal-content">
+
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">Add Instrument</h4>
+                  </div>
+
+                  <div class="modal-body">
+                      <form>
+                      <div class="form-group" id="addGuitar">
+
+                          <input name="make" type="text" class="form-control" id="make" placeholder="Make">
+                          <input name="model" type="text" class="form-control" id="model" placeholder="Model">
+                          <input name="type" type="text" class="form-control" id="type" placeholder="Type">
+                          <input name="purchased" type="date" class="form-control" id="Purchased" placeholder="Purchased On">
+
+                      </div>
+
+                          <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal" >Cancel</button>
+                          <input type="submit" id="newGuitarSubmit" class="btn btn-primary">
+                          </div>
+
+                      </form>
+
+                  </div>
+
+
+
+              </div>
+
+          </div>
+
+      </div>
+
+
+      </div>
+
     </div>
     <?php
     include("../includes/incbottom.inc");
