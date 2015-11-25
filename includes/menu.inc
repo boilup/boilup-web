@@ -9,4 +9,12 @@
                     <!-- <li><a href="#">One more separated link</a></li> -->
                 </ul>
             </li>
-            <li><a href="/projects">Projects</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="/records">Record collection</a></li>
+                    <li><a href="/mileage">Motorcycle mileage</a></li>
+                    <!-- <li><a href="#">One more separated link</a></li> -->
+                </ul>
+            </li>
+

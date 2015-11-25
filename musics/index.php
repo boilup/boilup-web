@@ -11,6 +11,7 @@
 
     ?>
 
+
   </head>
   <body>
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -47,14 +48,20 @@
       $GetInstruments='select * from instruments where type= :TYPE';
       $GetInstrumentsHandler=$dbh->prepare($GetInstruments, array(PDO::FETCH_OBJ));
       $GetInstrumentsHandler->execute(array(':TYPE'=>"Guitar"));
-      while($Guitar=$GetInstrumentsHandler->fetch(PDO::FETCH_OBJ)) {
-          //echo "<pre>";
-          echo "My " . $Guitar->make . " " . $Guitar->model . " Was acquired on " . $Guitar->acquired . "<br>";
-          //echo "<pre>";
-      }
+        echo "<table id='guitartable' class='table table-striped'>";
+        echo"<tr><thead>";
+        echo "<th>entry</th>";
+        echo "</tr></thead>";
 
+        echo "<tbody>";
+        while($Guitar=$GetInstrumentsHandler->fetch(PDO::FETCH_OBJ)) {
+            //echo "<pre>";
+            echo "<tr><td>My " . $Guitar->make . " " . $Guitar->model . " Was acquired on " . $Guitar->acquired . "</td></tr>";
+            //echo "<pre>";
+        }
+        echo "</tbody>";
+        echo "</table>";
       ?>
-
       </div>
       <hr>
 
@@ -115,6 +122,6 @@
     <?php
     include("../includes/incbottom.inc");
     ?>
-
+    <script src="../js/music.js"></script>
   </body>
 </html>

@@ -65,10 +65,8 @@
         <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="//imgur.com/a/0zjID/embed"></iframe>
       </div>
     </div>
-    
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../dist/js/bootstrap.min.js"></script>
+  <?php
+  include("../includes/incbottom.inc");
+  ?>
   </body>
   </html>

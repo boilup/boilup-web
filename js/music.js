@@ -12,8 +12,9 @@ $(document).ready(function(){
         $.post("insert.php",data,function(result) {
 
             var output=JSON.parse(result);
-            var outstring="My " + output.make + " " + output.model + " was purchased on " + output.purchased + "<br>";
-            $("#guitartable").append(outstring );
+            //var outstring="My " + output.make + " " + output.model + " was purchased on " + output.purchased + "<br>";
+            var outstring="<tr><td>My " + output.make + " " + output.model + " Was acquired on " + output.purchased + "</td></tr>";
+            $("table#guitartable").append(outstring );
             $("#jsonout").html(output.type);
 
         });
