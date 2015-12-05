@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    
+<head>
+
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Boilup Consulting</title>
+
+    
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-frontpage.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Home</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Image Background Page Header -->
+    <!-- Note: The background image is set within the business-casual.css file. -->
+    <header class="business-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="tagline">Boilup Consulting</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-8" id="about">
+                <h2>What We Do</h2>
+                <p>Let us help with your computing and online needs, from Website design and hosting to PC and Technical Support on site in and around the Avalon Peninsula.</p>
+                <p>We offer competitive rates and a no-hassle guarantee.</p>
+                <!-- <p>
+                    <a class="btn btn-default btn-lg" href="#">Call to Action &raquo;</a>
+                </p> -->
+            </div>
+            <div class="col-sm-4" id="contact">
+                <h2>Contact Us</h2>
+                <p>We'd love to hear from you. Please use the button below to reach out!</p>
+                <button type="button" id="myButton" data-toggle="modal" data-target="#contactModal" data-loading-text="Loading..." class="btn btn-primary" >
+                  Contact form
+                </button>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <div class="row" id="services">
+            <div class="col-sm-4">
+                <img class="img-circle img-responsive img-center" src="img/mousing.jpg" alt="">
+                <h2>PC Support</h2>
+                <p>Spyware and popups you say? We can help clean your PC and help keep it safe, would you like to know more?</p>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-circle img-responsive img-center" src="img/37.jpg" alt="">
+                <h2>Create your online presence</h2>
+                <p>Need help designing a Website or e-commerce identity? We can help.</p>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-circle img-responsive img-center" src="img/network.jpg" alt="">
+                <h2>Networking/Wireless Connectivity</h2>
+                <p>Looking to boost your signal? Thinking about a wireless connection in a hard to hit place? Let us know!</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Boilup Consulting. 2015</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+        
+        
+
+    </div>
+    <!-- /.container -->
+    
+    
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Boilup Consulting :: Contact Us</h4>
+                </div>
+    <div class="modal-body">
+                  
+        <form class="form" role="form" id="contactForm">
+
+            <div class="form-group">
+                <label for="name">Name: </label>
+                <input name="name" type="text" class="form-control" id="name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input name="email" type="email" class="form-control" id="email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone: </label>
+              <input name="phone" type="tel" class="form-control" id="phone" required>
+            </div>                        
+            <div class="form-group">
+              <label for="contact">What can we help with?:</label>
+              <input name="contact" class="form-control" size="444" id="contact" required>
+            </div>
+
+            <div class="form-group" hidden>
+              <input name="imabot" type="checkbox" class="form-control" id="checkbox" hidden>
+            </div>                        
+
+            <div class="modal-footer"                >
+                <button type="submit" class="btn btn-default">Submit</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <h4 id="sendResult"></h4>
+            </div>
+        </form>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
+    
+</body>
+
+</html>
