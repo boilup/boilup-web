@@ -14,6 +14,7 @@ $(document).ready(function() {
       //console.log(formData);
       $.post('ajax/ajaxMailer.php', formData, function(response, status, xhr)  {
         
+        
           //console.log(formData); 
           
            if ( status === "error" ) {
@@ -26,6 +27,7 @@ $(document).ready(function() {
                 $(".modal").modal('hide');
                 $("#contactForm")[0].reset();
                 alert('The message was successfully sent'); 
+                $("#sendResult").html(""); 
                 
             }
           
